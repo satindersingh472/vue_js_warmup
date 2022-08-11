@@ -22,6 +22,8 @@ export default {
       indiv[k].addEventListener(`click`,this.color_pink);
     }
   },
+
+
   methods: {
     change_color(){
         let div = document.getElementById(`changing`);
@@ -31,11 +33,14 @@ export default {
         details[`target`][`style`][`color`] = `pink`;
     }
   },
+
+
   data() {
     return {
-        secrets: [`work hard`,`meditate`,`eat healthy`],
+        secrets: [`work hard`,`meditate`,`eat healthy`]
     };
   },
+
 };
 </script>
 
